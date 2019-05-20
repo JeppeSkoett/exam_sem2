@@ -2,6 +2,7 @@
 <html lang="da">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet/main.css">
     <title>Landing page</title>
 </head>
@@ -21,15 +22,28 @@
    </header>
    
    <main>
-       <div class="video"><video></video></div>
-       <div class="arrow"></div>
-       <div id="spacing"></div>
+       <div class="videowrapper">
+           <video autoplay loop muted>
+               <source src="video/drone_vid.mp4" type="video/mp4">
+           </video>
+       </div>
+       <div class="textwrapper">
+           <div class="textbackground">
+                <h1>SKOLELUNDEN</h1>
+            </div> 
+        </div>
+        <div class="arrowspacing">
+           <div class="arrow">
+               <i class="down"></i>
+           </div>
+       </div>
        <div class="websitemap"></div>
-       
    </main>
   
    <footer>
        
    </footer>
+   
+   <script src="stylesheet/main.js"></script>
 </body>
 </html>

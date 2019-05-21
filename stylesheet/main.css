@@ -44,10 +44,8 @@ a:hover{
 }
 
 .videowrapper{
-    height: 70%;
-    width: 100vw;
-    margin: 0 auto;
-    position: relative;
+    height: 810px;
+    
 }
 
 video{ 
@@ -77,11 +75,6 @@ video{
 }
 
 /* ============================ Under videoen ================================= */
-.arrowspacing{
-    height: 50px;
-    width: 100%;
-    background-color: grey;
-}
 
 .arrow{
     height: 50px;
@@ -104,10 +97,56 @@ i {
     -webkit-transform: rotate(45deg);
 }
 
+/* ========================================== Map ==========================================*/
 .websitemap{
-    height: 250px;
-    width: 500px;
+    height: 700px;
+    width: 99%;
     margin: 0 auto;
-    padding-top: 50px;
-    background-color: blue;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 10px 2px grey;
+    border: groove black;
+    background-color: white;
+    
 }
+
+.movemap{
+    margin: 125px;
+}
+
+
+
+
+/* ========================================== footer =================================================*/
+
+.footer{
+    height: 100px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

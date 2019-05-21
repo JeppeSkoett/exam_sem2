@@ -28,8 +28,18 @@ function dragElement(elmnt) {
     elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
   }
 
+let overlay = document.getElementById("tree1");
+let span = document.getElementsByClassName("close")[0];
+
   function closeDragElement() {
     document.onmouseup = null;
     document.onmousemove = null;
+    overlay.style.display = "block";
   }
+
+  span.onclick = function() {
+    overlay.style.display = "none";
+  }
+
+  
 }

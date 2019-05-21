@@ -11,21 +11,56 @@
 
   <h1>Skolelunden</h1>
 
-  <p>Placer træet hvor det er planet</p>
-
   <div id="dragndrop">
-    <div id="mydivheader"> <img src="images/oak.png" alt="eg" height="44px" width="55px"> </div>
+      <div id="mydivheader">
+        <img class="imgTree" src="images/oak.png" alt="eg">
+      </div>
   </div>
 
   <div id="mydiv2">
-    <div id="mydivheader"> <img src="images/oak.png" alt="eg" height="44px" width="55px"> </div>
+      <p>Tilføj træ</p>
+      <div id="mydivheader">
+        <img class="imgTree" src="images/oak.png" alt="eg">
+      </div>
   </div>
 
-  <div class="lunden">
-      <img src="images/skolelunden.png" alt="skolelunden" height="500px" width="1200px">
-  </div>
+  <img class="lunden" src="images/skolelunden.png" alt="skolelunden">
 
-  <script src="javascript/dragndrop.js"></script>
+
+
+  <div id="tree1" class="overlay">
+
+      <div class="overlay_content">
+
+            <span class="close">&times;</span>
+
+            <div class="rang">
+              <p>&plus;</p>
+            </div>
+
+            <div class="nameWrapper">
+              <input class="name" type="text" placeholder="Tilføj navn....">
+            </div>
+
+            <img class="imgRang" src="images/rang.png" alt="Rang">
+
+            <div class="datoWrapper">
+
+            <div class="datoStart">
+                <p>START</p>
+            </div>
+
+            <div class="datoSlut">
+                <p>SLUT</p>
+            </div>
+
+            </div>
+
+
+
+
+
+        <script src="javascript/dragndrop.js"></script>
 </body>
 
 </html>

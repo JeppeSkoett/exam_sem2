@@ -89,8 +89,8 @@ h1{
   margin-left: 12%;
   padding: 20px;
   border: 1px solid;
-  width: 25%; /* Could be more or less, depending on screen size */
-  height: 60%;
+  width: 380px; /* Could be more or less, depending on screen size */
+  height: 450px;
   overflow: auto;
 }
 
@@ -124,7 +124,7 @@ h1{
 }
 
 .datoWrapper{
-  width: 35%;
+  width: 34%;
   height: 10%;
   display: inline-block;
 

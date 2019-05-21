@@ -48,8 +48,9 @@ a:hover{
 }
 
 .videowrapper{
-    height: 800px;
-    padding-top: 90px;
+    width: 100%;
+    overflow: hidden;
+    
 }
 
 video{ 

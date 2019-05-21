@@ -102,6 +102,16 @@ i {
     -webkit-transform: rotate(45deg);
 }
 
+#viewport{
+    width: 100%;
+    height: 135px;
+    background-color: #3f5b58;
+    font-family: sans-serif;
+    font-size: 5em;
+    line-height: 135px;
+    text-align: center;
+    color: white;
+}
 /* ========================================== Map ==========================================*/
 .websitemap{
     height: 700px;
@@ -115,10 +125,13 @@ i {
     
     
 }
+#mappadding{
+    margin-top: 200px;
+}
 
 .movemap{
     overflow: hidden;
-    padding-top: 1080px;
+    padding-top: 1300px;
     margin: 0 140px;
     position: absolute;
     top: 0;
@@ -145,7 +158,7 @@ i {
     width: 400px;
     background-color: #3f5b58;
     margin: 150px 0 0 190px;
-    margin-top: 1020px;
+    margin-top: 1250px;
     border: groove black;
     position: absolute;
     top: 0;
@@ -155,7 +168,7 @@ i {
 }
 
 h4{
-    color: white;
+    color: #c8102e;
     font-family: sans-serif;
     font-size: 4em;
     text-align: center;
@@ -170,15 +183,63 @@ p{
     padding-top: 10px;
     padding-left: 10px;
 }
+/* ========================================== Under kortet =================================================*/
+#spacingmapapp{
+    padding-top: 200px;
+}
 
+.appwrapper{
+    height: 600px;
+    width: 100%;
+    display: inline-block;
+}
 
+.informationspc{
+    padding-top: 50px;
+    margin-left: 50%;
+}
+
+.information{
+    height: 470px;
+    width: 400px;
+    background-color: #3f5b58;
+    border: groove black;
+}
+
+h5{
+    color: #c8102e;
+    font-family: sans-serif;
+    font-size: 4em;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#iphone{
+    float: left;
+    margin-left: 20%;
+    padding-top: 50px;
+}
 /* ========================================== footer =================================================*/
 
 .footer{
     height: 100px;
     width: 100%;
+    background-color: #3f5b58;
 }
 
+.footerspc{
+    padding-top: 100px;
+}
+/* ========================================== Anchor points =================================================*/
+.anchor {
+    display: block;
+    position: relative;
+    top: -237px;
+    visibility: hidden;
+}
+
+
+/* ========================================== Responsive media q =================================================*/
 
 @media screen and (max-width: 992px) {
     

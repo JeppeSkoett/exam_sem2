@@ -3,6 +3,7 @@ padding: 0;
 margin: 0;
 }
 
+@media screen and (max-width: 1920px){ 
 body{
     background-color: #eee;
 }
@@ -135,7 +136,7 @@ i {
     
 }
 
-.texttilkort{
+#texttilkort{
     height: 470px;
     width: 400px;
     background-color: #3f5b58;
@@ -146,6 +147,7 @@ i {
     top: 0;
     left: 0;
     z-index: 2;
+    transition:all 1s; 
 }
 
 h4{
@@ -164,6 +166,8 @@ p{
     padding-top: 10px;
     padding-left: 10px;
 }
+
+
 /* ========================================== footer =================================================*/
 
 .footer{
@@ -172,7 +176,7 @@ p{
 }
 
 
-
+}
 
 
 

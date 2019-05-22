@@ -9,7 +9,7 @@ body{
 
 nav{
     width: 100%;
-    height: 100px;
+    height: 12%;
     background-color: #3f5b58;
     position: absolute;
     top: 0;
@@ -45,6 +45,8 @@ a:hover{
 .navlogo{
     height: 0;
     width: 0;
+    padding-left: 0.5%;
+    padding-top: 0.5%;
 }
 
 .videowrapper{
@@ -231,14 +233,19 @@ h5{
     padding-top: 100px;
 }
 /* ========================================== Anchor points =================================================*/
-.anchor {
+#anchor {
     display: block;
     position: relative;
-    top: -237px;
+    top: -150px;
     visibility: hidden;
 }
 
-
+#anchor2{
+    display: block;
+    position: relative;
+    top: -150px;
+    visibility: hidden;
+}
 /* ========================================== Responsive media q =================================================*/
 
 @media screen and (max-width: 992px) {

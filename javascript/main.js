@@ -3,7 +3,7 @@ function Scroll(){
     let ypos = window.pageYOffset;
     if(ypos > 400){
        top.style.height = "470px";
-       top.style.width = "400px"
+       top.style.width = "400px";
        }
        else{ 
        top.style.height = "0px";

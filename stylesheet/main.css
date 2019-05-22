@@ -160,16 +160,6 @@ video{
                                         /*Arrow done*/
 
 /* ========================================== Map ==========================================*/
-.websitemap{
-    height: 700px;
-    width: 99%;
-    margin: 0 auto;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    box-shadow: 0px 0px 10px 2px grey;
-    border: groove black;
-    background-color: white;
-}
 
 .skoleLundenWrapper{
   width: 90vw;
@@ -188,10 +178,10 @@ video{
 }
 
 #infoMap{
-    width: 30vw;
-    height: 60vh;
+    width: 30%;
+    height: 60%;
     background-color: #3f5b58;
-    margin-left: 2.5vw;
+    margin-left: 2.5%;
     position: absolute;
     box-shadow: 0 0 5px grey;
     overflow: hidden;

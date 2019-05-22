@@ -22,8 +22,8 @@ h1{
 }
 
 #dragndrop {
-  padding-top: 16.4%;
-  padding-left: 23.6%;
+  padding-top: 35vh;
+  padding-left: 23.6vw;
   text-align: center;
   position: absolute;
   z-index: 1;
@@ -32,8 +32,8 @@ h1{
 #mydiv2 {
   width: 75px;
   height: 60px;
-  margin-top: 15%;
-  margin-left: 22.5%;
+  margin-top: 32vh;
+  margin-left: 22.5vw;
   position: absolute;
   text-align: center;
   background-color: #fff;
@@ -95,16 +95,16 @@ h1{
 }
 
 .rang{
-  width: 9%;
-  height: 10%;
+  width: 3vw;
+  height: 6vh;
   border: 1px solid #fff;
   display: inline-block;
   overflow: hidden;
 }
 
 .nameWrapper{
-  width: 35%;
-  height: 10%;
+  width: 8vw;
+  height: 6vh;
   border: 1px solid #fff;
   display: inline-block;
   overflow: hidden;
@@ -118,14 +118,14 @@ h1{
 }
 
 .imgRang{
-  height: 10%;
+  height: 6vh;
   display: inline-block;
   overflow: hidden;
 }
 
 .datoWrapper{
-  width: 34%;
-  height: 10%;
+  width: 8vw;
+  height: 6vh;
   display: inline-block;
 
 }
@@ -157,9 +157,6 @@ h1{
   text-align: center;
   line-height: 150%;
   color: #fff;
-
-
-
 }
 
 

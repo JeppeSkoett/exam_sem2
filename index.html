@@ -20,6 +20,8 @@
             </ul>
        </nav>
 
+                                  <!--Drone optagelse-->
+
        <div class="videowrapper">
            <video autoplay loop muted>
                <source src="video/drone_vid.mp4" type="video/mp4">
@@ -36,68 +38,65 @@
 
    <main>
 
-     <div class="arrow bounce"></div>
+                                  <!--Drone optagelse done-->
+
+     <div class="arrow bounce" onclick="scrollDown(0, 630)"></div>
 
 
-     <div id="mappadding">
-            <div id="flytterhelemappet">
-            <div class="websitemap">
-            <div id="texttilkort">
-              <h4>Information</h4>
-              <p>
-              Dette er kortet over skolelunden, på Oksbøl kaserne. Du kan på denne side læse om de pensionerede majorer, oberst løjnanter og oberster.
-              Du vil heriblandt kunne læse om deres tid på kasernet og ikke mindst en historien om hvad hver enkelt medarbejder lavede.
-              <br>
-              <br>
-              Klik på de tre første træer for at læse om de afskedne medarbejdere.
-              </p>
-            </div>
+                                    <!--Skolelunden-->
+     <div class="skoleLundenWrapper">
 
-                <div class="movemap">
-                   <a id="anchor"></a>
-                    <img src="images/skolelunden.png" usemap="#image-map" id="imageskolelunden">
-                    <map name="image-map">
-                        <area target="" alt="træ1" title="træ1" href="" coords="26,469,25" shape="circle">
-                        <area target="" alt="træ2" title="træ2" href="" coords="28,545,23" shape="circle">
-                        <area target="" alt="træ3" title="træ3" href="" coords="78,505,24" shape="circle">
-                    </map>
-                </div>
 
+           <div class="map">
+              <a id="anchor"></a>
+               <img id="imageskolelunden" src="images/skolelunden.png" usemap="#image-map" >
+               <map name="image-map">
+                   <area target="" alt="træ1" title="træ1" href="" coords="26,469,25" shape="circle">
+                   <area target="" alt="træ2" title="træ2" href="" coords="28,545,23" shape="circle">
+                   <area target="" alt="træ3" title="træ3" href="" coords="78,505,24" shape="circle">
+               </map>
            </div>
+
+           <div id="infoMap">
+             <h4>Skolelunden</h4>
+             <p>
+             Dette er kortet over skolelunden, på Oksbøl kaserne. Du kan på denne side læse om de pensionerede majorer, oberst løjnanter og oberster.
+             Du vil heriblandt kunne læse om deres tid på kasernet og ikke mindst en historien om hvad hver enkelt medarbejder lavede.
+             <br>
+             <br>
+             Klik på de tre første træer for at læse om de afskedne medarbejdere.
+             </p>
            </div>
-       </div>
+     </div>
+
+                                      <!--Skolelunden done-->
+
+      <div class="arrow bounce"onclick="scrollDown(0, 640)"></div>
 
 
-<!--
-       <div class="arrow">
-               <i class="down"></i>
+                                            <!--APPEN-->
+
+
+      <div class="appwrapper">
+
+           <img src="images/iphone.png" id="iphone">
+
+
+           <div class="infoApp">
+               <h4>Information</h4>
+                  <p>
+                  Dette er en app, der kan anvendes ude på Oksbøl kaserne, ved Skolelunden. Planen med denne app, er at du vha. din mobil kan bruge kameraet og se de afskedne personer ved siden af deres træ.
+                  Appen tilbyder også information omkring personen ved træet, vha af et simpelt tryk på manden. Appen tilbyder de samme informationer, som på kortet ovenfor.
+                  </p>
            </div>
-       <div id="spacingmapapp"></div>
-       <div class="appwrapper">
-       <a id="anchor2"></a>
-       <img src="images/iphone.png" id="iphone" height="500px" width="240px">
-       <div class="informationspc">
-       <div class="information">
-           <h5>Information</h5>
-              <p>
-              Dette er en app, der kan anvendes ude på Oksbøl kaserne, ved Skolelunden. Planen med denne app, er at du vha. din mobil kan bruge kameraet og se de afskedne personer ved siden af deres træ.
-              Appen tilbyder også information omkring personen ved træet, vha af et simpelt tryk på manden. Appen tilbyder de samme informationer, som på kortet ovenfor.
-              </p>
-       </div>
-       </div>
-       </div>
 
+      </div>
 
--->
    </main>
 
    <footer>
-      <div class="footerspc">
-       <div class="footer"></div>
-       </div>
+       <h1>FOOTER</h1>
    </footer>
-
-
 
    <script src="javascript/main.js" type="text/javascript"></script>
 </body>

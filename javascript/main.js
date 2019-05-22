@@ -1,14 +1,19 @@
+window.addEventListener("scroll",Scroll);
+
 function Scroll(){
-    let top = document.getElementById('texttilkort')
+    let top = document.getElementById("infoMap")
     let ypos = window.pageYOffset;
-    if(ypos > 400){
-       top.style.height = "470px";
-       top.style.width = "400px";
+    if(ypos > 300){
+       top.style.height = "60vh";
+       top.style.width = "30vw";
        }
-       else{ 
+       else{
        top.style.height = "0px";
        top.style.width = "0px";
        }
 }
-       window.addEventListener("scroll",Scroll);
 
+
+function scrollDown(x, y) {
+  window.scrollBy(x, y);
+}

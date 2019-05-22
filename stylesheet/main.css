@@ -7,6 +7,41 @@ body{
     background-color: #E2E2DC;
 }
 
+h2{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+}
+
+h4{
+    color: #c8102e;
+    font-family: sans-serif;
+    font-size: 4em;
+    text-align: center;
+    padding-top: 10px;
+}
+
+h5{
+    color: #fff;
+    font-size: 2em;
+    float: left;
+}
+
+h6{
+  font-size: 1.1em;
+  text-align: center;
+  color: #fff;
+  line-height: 120%;
+}
+
+p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.1em;
+
+}
+
 nav{
     width: 98.9vw;
     height: 13vh;
@@ -167,21 +202,135 @@ video{
     width: 100%;
 }
 
-h4{
-    color: #c8102e;
-    font-family: sans-serif;
-    font-size: 4em;
-    text-align: center;
-    padding-top: 10px;
+
+                          /*css til tree overlay*/
+
+.overlay{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 8; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+
+.close {
+    color: red;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    }
+
+.close:hover, .close:focus {
+    color: #fff;;
+    text-decoration: none;
+    cursor: pointer;
+                          }
+
+.overlay_content {
+    background-color: #3f5b58;
+    margin: 5% auto; /* 2.5% from the top and centered */
+    padding: 0 20px;
+    border: 1px solid;
+    width: 36%; /* Could be more or less, depending on screen size */
+    height: 82.5vh;
+    overflow: auto;
 }
 
-p{
-    color: white;
-    font-family: sans-serif;
-    font-size: 1.1em;
-    margin: 30px;
-
+.top{
+  width: 34.5%;
+  height: 50px;
+  border-bottom: 2px solid red;
+  position: fixed;
+  z-index: 2;
+  background-color: #3f5b58;
 }
+
+.rang{
+    width: 3vw;
+    height: 6vh;
+    margin-left: 6%;
+    margin-right: 6%;
+    float: left;
+}
+
+#watermark{
+  width: 35%;
+  height: 75%;
+  margin-top: 2.5%;
+  margin-left: 0.8%;
+  opacity: 0.3;
+  position: absolute;
+}
+
+.profil{
+  width: 85%;
+  height: auto;
+  margin-top: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.profilImg{
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 8.25%;
+    position: relative;
+    z-index: 1;
+}
+
+.profilMp4{
+    width: 40%;
+    position: relative;
+    z-index: 1;
+}
+
+.billede1{
+    width: 33%;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    position: relative;
+}
+
+.text1{
+    width: 33%;
+    height: 33%;
+    margin-right: 12%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    position: relative;
+    float: right;
+    overflow: hidden;
+  }
+
+  .text2{
+      width: 33%;
+      margin-left: 15%;
+      margin-right: 7%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      position: relative;
+      float: left;
+  }
+
+.billede2{
+    width: 33%;
+    margin-bottom: 5%;
+    position: relative;
+}
+
+
+
+                        /*css til tree overlay DONE*/
+
+
 /* ========================================== Under kortet =================================================*/
 
 

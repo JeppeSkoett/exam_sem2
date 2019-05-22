@@ -4,7 +4,7 @@ let btn = document.getElementById("myBtn");
 let span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on the button, open overlay
-myBtn.onclick = function() {
+btn.onclick = function() {
   overlay.style.display = "block";
 }
 

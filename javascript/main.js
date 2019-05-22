@@ -13,7 +13,26 @@ function Scroll(){
        }
 }
 
-
 function scrollDown(x, y) {
   window.scrollBy(x, y);
+}
+
+
+let overlay = document.getElementById("hey")
+let btn = document.getElementById("lortlort")
+let span = document.getElementsByClassName("close")[0];
+
+btn.onclick = function() {
+  overlay.style.display = "block";
+}
+
+span.onclick = function() {
+  overlay.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the overlay, close it
+window.onclick = function(event) {
+  if (event.target == overlay) {
+    overlay.style.display = "none";
+  }
 }

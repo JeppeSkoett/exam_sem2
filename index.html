@@ -2,34 +2,164 @@
 <html lang="da">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet/main.css">
     <title>Landing page</title>
 </head>
 <body>
   <header>
-       <nav>   
-            <div class="navlogo">
-                <img src="images/navlogo.png" alt="navlogo" height="100px" width="75px"> 
+       <nav>
+            <div class="navLogo">
+                <img src="images/navlogo.png" alt="navlogo">
             </div>
             <ul>
-                <li><a href="#">Underside</a></li>
-                <li><a href="#">Skolelunden</a></li>
-                <li><a href="#">Underside</a></li>
-                <li><a href="#">Underside</a></li>
+                <li><a>Underside</li>
+                <li><a>Underside</a></li>
+                <li><a>Underside</a></li>
+                <li><a>Skolelunden</a></li>
             </ul>
        </nav>
+
+                                  <!--Drone optagelse-->
+
+       <div class="videowrapper">
+           <video autoplay loop muted>
+               <source src="video/drone_vid.mp4" type="video/mp4">
+           </video>
+       </div>
+
+       <div class="textwrapper">
+            <div class="textbackground">
+                <h1>SKOLELUNDEN</h1>
+            </div>
+        </div>
+
    </header>
-   
+
    <main>
-       <div class="video"><video></video></div>
-       <div class="arrow"></div>
-       <div id="spacing"></div>
-       <div class="websitemap"></div>
-       
+
+                                  <!--Drone optagelse done-->
+
+     <div class="arrow bounce" onclick="scrollDown(0, 630)"></div>
+
+
+                                    <!--Skolelunden-->
+     <div class="skoleLundenWrapper">
+
+
+           <div  class="map">
+               <img id="imageskolelunden" src="images/skolelunden.png" usemap="#image-map" >
+               <map name="image-map">
+                 <map name="image-map">
+                     <area id="lortlort" alt="tree1" title="tree1" coords="22,400,19" shape="circle">
+                     <area target="" alt="tree2" title="tree2" href="" coords="25,463,17" shape="circle">
+                     <area target="" alt="tree3" title="tree3" href="" coords="65,431,20" shape="circle">
+                  </map>
+           </div>
+
+           <div id="hey" class="overlay">
+
+               <div class="overlay_content">
+
+
+
+                 <div class="top">
+                     <span class="close">&times;</span>
+                     <h5>MJ E. Frandsen</h5>
+                     <img class="rang" src="images/rang.png" alt="Rang">
+                     <h6>Start: xx/xx-xxxx</h6>
+
+                    <h6>Slut: 30/03-1983</h6>
+                 </div>
+       <br>
+                 <img id="watermark" src="images/logo.png" alt="Logo">
+
+                 <div class="profil">
+                   <img class="profilImg" src="images/profil.png" alt="Profil billede">
+                   <img class="profilMp4" src="images/profil.png" alt="Profil billede">
+                 </div>
+
+
+                 <h2>Info</h2>
+
+                 <img class="billede1" src="images/rund.png" alt="Billede1">
+                 <div class="text1">
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                     eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                     Ut enim ad minim veniam.</p>
+                 </div>
+
+
+                 <div class="text2">
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                     eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                     Ut enim ad minim veniam.</p>
+                 </div>
+                 <img class="billede2" src="images/rund.png" alt="Billede1">
+
+                 <img class="billede1" src="images/rund.png" alt="Billede1">
+                 <div class="text1">
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                     eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                     Ut enim ad minim veniam.</p>
+                 </div>
+
+
+                 <div class="text2">
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                     eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                     Ut enim ad minim veniam.</p>
+                 </div>
+              <img class="billede2" src="images/rund.png" alt="Billede1">
+
+               </div>
+
+
+           </div>
+
+
+           <div id="infoMap">
+             <h4>Skolelunden</h4>
+             <p>
+             Dette er kortet over skolelunden, på Oksbøl kaserne. Du kan på denne side læse om de pensionerede majorer, oberst løjnanter og oberster.
+             Du vil heriblandt kunne læse om deres tid på kasernet og ikke mindst en historien om hvad hver enkelt medarbejder lavede.
+             <br>
+             <br>
+             Klik på de tre første træer for at læse om de afskedne medarbejdere.
+             </p>
+           </div>
+     </div>
+
+
+
+                                      <!--Skolelunden done-->
+
+      <div class="arrow bounce"onclick="scrollDown(0, 640)"></div>
+
+
+                                            <!--APPEN-->
+
+
+      <div class="appwrapper">
+
+           <img src="images/iphone.png" id="iphone">
+
+           <div class="infoApp">
+               <h4>Information</h4>
+                  <p>
+                  Dette er en app, der kan anvendes ude på Oksbøl kaserne, ved Skolelunden. Planen med denne app, er at du vha. din mobil kan bruge kameraet og se de afskedne personer ved siden af deres træ.
+                  Appen tilbyder også information omkring personen ved træet, vha af et simpelt tryk på manden. Appen tilbyder de samme informationer, som på kortet ovenfor.
+                  </p>
+           </div>
+
+      </div>
+
    </main>
-  
+
    <footer>
-       
+       <h1>FOOTER</h1>
    </footer>
+
+   <script src="javascript/main.js" type="text/javascript"></script>
 </body>
 </html>

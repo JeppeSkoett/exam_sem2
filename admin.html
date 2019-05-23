@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesheet/admin.css">
+
+
+</head>
+<body>
+
+  <h1 onclick="location.href='index.html'" style="cursor: pointer;">Skolelunden</h1>
+
+  <div id="dragndrop">
+      <div id="mydivheader">
+        <img class="imgTree" src="images/oak.png" alt="eg">
+      </div>
+  </div>
+
+  <div id="mydiv2">
+      <p>Tilføj træ</p>
+      <div id="mydivheader">
+        <img class="imgTree" src="images/oak.png" alt="eg">
+      </div>
+  </div>
+
+  <img class="lunden" src="images/skolelunden.png" alt="skolelunden">
+
+
+
+  <div id="tree1" class="overlay">
+
+      <div class="overlay_content">
+
+
+
+            <div class="rang">
+              <table border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td>
+                    <form name="mygallery">
+                        <select id="rangDrop" name="picture" size="1" onChange="showimage()">
+                            <option selected value="">Tilføj</option>
+                            <option value="images/oberst.png">OB</option>
+                            <option value="images/oberstl.png">OL</option>
+                            <option value="images/major.png">MJ</option>
+                        </select>
+                    </form>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="nameWrapper">
+              <input class="name" type="text" placeholder="Tilføj navn....">
+            </div>
+
+            <div class="rang">
+              <tr>
+                <td>
+                  <img id="rangImg" name="pictures">
+                </td>
+              </tr>
+            </div>
+
+        <div class="datoWrapper">
+
+            <div class="datoStart">
+              <select id="dag">
+                  <option value="default">D</option>
+              </select>
+
+              <select id="måned">
+                  <option value="default">M</option>
+              </select>
+
+              <select id="år">
+                  <option value="default">År</option>
+              </select>
+            </div>
+
+            <div class="datoSlut">
+              <select id="dagSlut">
+                  <option value="default">D</option>
+              </select>
+
+              <select id="månedSlut">
+                  <option value="default">M</option>
+              </select>
+
+              <select id="årSlut">
+                  <option value="default">År</option>
+              </select>
+            </div>
+        </div>
+
+        <div class="profil">
+          <img class="profilImg" src="images/profil.png" alt="Profil billede">
+          <img class="profilMp4" src="images/mp4.png" alt="Profil billede">
+        </div>
+
+
+        <h2>Info</h2>
+
+        <img class="billede1" src="images/rund.png" alt="Billede1">
+        <div class="text1">
+            <textarea class="skrivHer" name="message" placeholder="Skriv her...." rows="8" cols="15"></textarea>
+        </div>
+
+
+        <div class="text2">
+            <textarea class="skrivHer" name="message" placeholder="Skriv her...." rows="8" cols="15"></textarea>
+        </div>
+        <img class="billede2" src="images/rund.png" alt="Billede1">
+
+        <img class="billede1" src="images/rund.png" alt="Billede1">
+        <div class="text1">
+            <textarea class="skrivHer" name="message" placeholder="Skriv her...." rows="8" cols="15"></textarea>
+        </div>
+
+
+        <div class="text2">
+            <textarea class="skrivHer" name="message" placeholder="Skriv her...." rows="8" cols="15"></textarea>
+        </div>
+     <img class="billede2" src="images/rund.png" alt="Billede1">
+
+     <br>
+     <br>
+
+     <button class="godkend" type="button">Godkend</button>
+
+<!--hvis vi sletter denne span virker vores js ikke for datoerne,
+selvom den på ingen måde linker sammen med det.
+derfor er opacity sat til 0 så man ikke kan se de.-->
+<span class="close">&times;</span>
+
+
+
+        <script src="javascript/admin.js"></script>
+</body>
+
+</html>

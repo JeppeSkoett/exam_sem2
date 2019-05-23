@@ -67,6 +67,11 @@ p{
     z-index: 2;
 }
 
+#mydivheader1 {
+    cursor: move;
+    z-index: 2;
+}
+
 .lunden {
   height: 500px;
   width: 1200px;
@@ -120,6 +125,10 @@ p{
   border: 1px solid #fff;
   display: inline-block;
   overflow: hidden;
+}
+
+.tabelStyle{
+	border: 0;
 }
 
 #rangDrop{

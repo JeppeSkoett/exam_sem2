@@ -317,9 +317,7 @@ video{
     overflow: hidden;
   }
 
-  .text1, .text2 p{
-      text-align: justify;
-  }
+
 
   .text2{
       width: 33%;
@@ -381,6 +379,7 @@ video{
     margin-left: 25%;
     margin-top: 3%;
     position: absolute;
+    cursor: pointer;
 }
 /* ========================================== footer =================================================*/
 

@@ -26,13 +26,14 @@ h5{
     color: #fff;
     font-size: 2em;
     float: left;
+    line-height: 7vh;
 }
 
 h6{
   font-size: 1.1em;
   text-align: center;
   color: #fff;
-  line-height: 120%;
+  line-height: 3.5vh;
 }
 
 p{
@@ -233,7 +234,7 @@ video{
 
 .top{
   width: 34.5%;
-  height: 50px;
+  height: 7vh;
   border-bottom: 2px solid red;
   position: fixed;
   z-index: 2;
@@ -245,6 +246,7 @@ video{
     height: 6vh;
     margin-left: 6%;
     margin-right: 6%;
+    margin-top: 0.5vh;
     float: left;
 }
 
